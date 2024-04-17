@@ -1,8 +1,8 @@
 const express = require('express');
-const { baseData } = require('../controllers/baseController');
+const { getHealthData } = require('../controllers/baseController');
 
 const router = express.Router();
 
-router.get('/', baseData);
+router.get('/', getHealthData);
 
 module.exports = router;
