@@ -1,25 +1,28 @@
-# Ignore system files
+# Dependencies
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Debug log from npm
+npm-debug.log*
+
+# Build outputs
+/dist/
+/build/
+/tmp/
+
+# IDE - Visual Studio Code
+.vscode/
+
+# IDE - JetBrains products (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+
+# macOS system files
 .DS_Store
 
-# Ignore IDE and editor files
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
-*.sln.cache
-*~
+# Environment variables files
+.env
 
-# Ignore compiled binaries
-/bin/
-/pkg/
-/*.exe
-/*.dll
-
-# Ignore dependencies
-/vendor/
-/node_modules/
-/client/node_modules/
-/client/next/
+# Log files
+*.log
