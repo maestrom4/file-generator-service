@@ -24,4 +24,5 @@ curl http://localhost:8080/api/health
 ```bash
 response { "message": "Hello from the API!" }
 ```
+
 check the logs also
